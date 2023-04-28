@@ -1,0 +1,84 @@
+{% extends 'parasites_app/base.html' %}
+{% load static %}
+
+
+
+
+
+
+{% block content_block %}
+
+	<!-- It has to be here to load content from the extending templates -->
+
+	<link rel="stylesheet" type="text/css" href="/static/css/editprofile.css" xmlns="http://www.w3.org/1999/html">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+	<form id="EditProfile" method="POST" action="/edit_profile/" enctype="multipart/form-data">
+	
+
+		<h2>Edit Profile</h2>
+
+		<input type="hidden" name="csrfmiddlewaretoken"
+			value="GSiPiZjdV1XpJ6I5tZJfXuHUqGXqFWBalLxoWCKB6DqfzPalNRm6X3uc2QFp5NuY">
+			{% csrf_token %}
+		<br>
+		<table>
+			<tbody>
+				<tr>
+					<th><label for="id_email">Email:</label></th>
+					<td><input type="email" name="email" value="{{user.email}}" required="" id="id_email">
+					</td>
+				</tr>
+				<tr>
+					<th><label for="id_username">Username:</label></th>
+					<td><input type="text" name="username" value="{{user.username}}" maxlength="150" required=""
+							id="id_username"><br></td>
+				</tr>
+
+				<tr>
+					<th>
+					
+						<label for="id_picture">Upload Profile Picture:</label></th>
+					<td>
+						
+							<span ><input type="file" name="picture" accept="image/*" id="id_picture"></span>
+						
+						
+						
+						
+						
+						
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+
+
+		<!-- Make changes button-->
+		<div>
+			<button type="submit" class="button">Make Changes</button>
+		</div>
+
+
+
+	</form>
+
+
+	<script>$(".helptext").remove();</script>
+	
+	
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

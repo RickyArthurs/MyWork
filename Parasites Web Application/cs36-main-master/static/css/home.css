@@ -1,0 +1,16 @@
+.col-md-4{
+  margin-left: 470px;
+  margin-top: 200px;
+  height: 600px;
+  width: 50%;
+  border-radius: 25px;
+
+
+
+}
+
+.card.my-2{
+  background-image: linear-gradient( rgb(255, 255, 255),rgb(163, 214, 255));
+  height: 50%;
+  
+}

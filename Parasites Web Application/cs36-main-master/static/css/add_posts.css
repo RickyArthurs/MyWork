@@ -1,0 +1,52 @@
+h3{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.card-body{
+   margin: auto;
+    
+  
+}
+
+.card{
+    border: #0e0d0d;
+    border-style: solid;
+    margin-right: auto;
+    margin-left: auto;
+    width:40%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+    
+}
+
+
+.btn-primary {
+    text-align: center;
+	background-color: #fcfcfc;
+	color: rgb(2, 2, 2);
+	cursor: pointer;
+	
+	border-radius: 25px;
+	border-style:solid; 
+	border-color:#0e0d0d;
+	font-size: 16px;
+  	font-weight: 600;
+  
+   
+
+  	
+	
+}
+
+.btn-primary {
+	margin-left: 300px;
+	width: 30%;
+}
+
+
+	
+
+.btn-primary :hover {
+	opacity: 0.8;}
+

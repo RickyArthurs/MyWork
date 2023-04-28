@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=CARDS
+comment1.params=
+comment1.target=CARDS()
+comment2.params=rowItems2
+comment2.target=void\ readDetails2(java.lang.String[])
+comment3.params=
+comment3.target=java.lang.String\ getCardName()
+comment4.params=
+comment4.target=int\ getCost()
+numComments=5

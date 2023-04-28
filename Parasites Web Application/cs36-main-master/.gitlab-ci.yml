@@ -1,0 +1,17 @@
+image: python:3.8
+
+stages:
+  - test
+
+test:
+  stage: test
+  tags:
+    - docker
+  script:
+    - pip install django-ckeditor
+    - pip3 install -r requirements.txt
+    - python3 manage.py makemigrations
+    - python3 manage.py migrate
+    - python populate_parasites.py
+    - python manage.py test
+

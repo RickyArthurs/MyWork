@@ -1,0 +1,34 @@
+C:\Users\ricky\AppData\Local\Programs\stack\x86_64-windows\ghc-9.0.2\lib\x86_64-windows-ghc-9.0.2\rts-1.0.2\include\ghcversion.h:
+  hash: 34cf82120260563444ac1fc26090e614fca4bae106bddb70e3d368467bc04e0a
+C:\Workspace\Haskell\2465714A\.stack-work\dist\d53b6a14\build\autogen\Paths_coursework.hs:
+  hash: 5b411acd67af6945337293e69a5be47fb1e6e51b0b069aa9d69e40d84e4627f7
+C:\Workspace\Haskell\2465714A\.stack-work\dist\d53b6a14\build\autogen\cabal_macros.h:
+  hash: a966a0385f1c92bf4f7f5dd5734d300a7df9f2d85235e161e5d808388d054a7c
+C:\Workspace\Haskell\2465714A\CHANGELOG.md:
+  hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+C:\Workspace\Haskell\2465714A\README.md:
+  hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+C:\Workspace\Haskell\2465714A\coursework.cabal:
+  hash: 9d05799326b7c9a1a75a9d789ca6b63700f1be936a66fd3a5edbb0e2a578cb30
+C:\Workspace\Haskell\2465714A\package.yaml:
+  hash: 6a2fde6175a395ab3c72ec226e517c9cc2daecdb0fc2757dea7a1f7ded9b057d
+C:\Workspace\Haskell\2465714A\src\Ast.hs:
+  hash: 93a10e52cff4a652ee98b3e4a5af8cf5040f1733b745a1d9a4390916903f01ca
+C:\Workspace\Haskell\2465714A\src\DisplayMode.hs:
+  hash: 7b0ebe4c04345a4a6e30f9f9b5ef876d942dd0a586a3b8dfd369245302b81e9a
+C:\Workspace\Haskell\2465714A\src\Examples.hs:
+  hash: 3ef0db49f0b3b5c44c7f48caad5106c4db5bfbec438b7a647de62fbfc4afc308
+C:\Workspace\Haskell\2465714A\src\Instruction.hs:
+  hash: 679f3154838b31b2ddcaf763fd3cf4f0dea6adcb264f1fffd66b08ff6d51f9d5
+C:\Workspace\Haskell\2465714A\src\Interp.hs:
+  hash: 4d91adf4a58c04212c6bee57c6c7e4fcd691f2593733c60ed7eeb5e80b474461
+C:\Workspace\Haskell\2465714A\src\Parser.hs:
+  hash: d69c9e4e6d2c538ae293335c4d58b23927adf824de5a596ce0e347952aa821f5
+C:\Workspace\Haskell\2465714A\src\Render.hs:
+  hash: 0024f6daf2394ad0ebf487c2dfb4637513a7bc1bb189b5ef5a3357b1e69ce951
+C:\Workspace\Haskell\2465714A\src\RenderSVG.hs:
+  hash: 72e1c096ef58df22f95861871948b34d87e09ad91390e42276b39261c60503d5
+C:\Workspace\Haskell\2465714A\src\Typecheck.hs:
+  hash: deea735fe83b93ec9fca7de78360e82abb5b6bb7c9883dd8b6a0d5252a668e91
+C:\Workspace\Haskell\2465714A\turtle.png:
+  hash: 324f59e3745c28f9f25eaad4aa77db16ed2f8888a82cd9f92d822f4000cdb676

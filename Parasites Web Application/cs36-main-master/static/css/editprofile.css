@@ -1,0 +1,176 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  margin-right: 1px;
+}
+
+h4 {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+
+  color: white;
+  margin-left: 35px;
+}
+
+
+#EditProfile {
+  display: inline-block;
+	background-image: linear-gradient( rgb(255, 255, 255),rgb(163, 214, 255));
+  margin-left: 400px;
+  width: 50%;
+  height: auto;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  border: 3px;
+  border-style: solid;
+  border-color: #0e0d0d;
+  padding: 1em;
+  border-radius: 25px;
+  text-align: center;
+}
+input[type="file"] {
+  margin-top: 10%;
+  margin-left: 140px;
+  color: rgba(0, 0, 0, 0);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 70%;
+  padding: 8px;
+  margin: 5px 0 22px 0;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-right:60px;
+  display: inline-block;
+  border-style: solid;
+  border-color: #0e0d0d;
+  background: #ffffff;
+  text-align: center;
+}
+
+input[type="text"] {
+  margin-top: 20px;
+  background-color: white;
+}
+
+input[type="email"] {
+ 
+  background-color: white;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  background-color: rgb(247, 247, 247);
+  border-style: solid;
+  border-color: #0e0d0d;
+}
+
+#id_picture {
+  margin-top: -190px;
+  
+}
+
+
+
+
+
+li{
+  
+   margin-top: 30px;
+   list-style-type: none;
+   margin-right:200px;
+}
+
+input[type="file"]::-ms-browse {
+  border: 2px solid #030303;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+  background-color: #ffffff;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  border: 2px solid #000000;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+  background-color: #ffffff;
+  transition: 1s;
+}
+
+input[type="file"]::file-selector-button {
+  border: 2px solid #000000;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+  background-color: #ffffff;
+  transition: 1s;
+}
+
+input[type="file"]::-ms-browse:hover {
+  background-color: #0d6dfdd8;
+  border: 2px solid #000000;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+  background-color: #0d6dfdd8;
+  border: 2px solid #000000;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background-color: #0d6dfdd8;
+  border: 2px solid #000000;
+}
+
+.button {
+  text-align: center;
+  background-color: #ffffff;
+  color: rgb(5, 5, 5);
+  cursor: pointer;
+  padding: -7px;
+  margin: -6px 0;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #0e0d0d;
+  margin-top: 80px;
+}
+
+.button {
+  margin-left:25px;
+  width: 30%;
+}
+.button:hover {
+  opacity: 0.8;
+  background-color: #0d6dfdd8;
+}
+
+.profile-container {
+  padding: 17px;
+}
+
+
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+/* no overflow allowed until the height is less than 900px */
+@media screen and (max-height: 900px) {
+  .main {
+    overflow: auto;
+  }
+}

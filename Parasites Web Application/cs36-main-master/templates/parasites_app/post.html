@@ -1,0 +1,29 @@
+{% extends 'parasites_app/base.html' %}
+{% load static %}
+
+{% block style_css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+{% endblock %}
+{% block title_block %}
+
+{% endblock %}
+
+{% block body_block %}
+	{% if post %}
+	<div class="bg-secondary rounded" style="margin:auto; width:50%; border:3px; padding: 25px; padding-right:5px; margin-top:40px; margin-bottom: 50px; box-shadow: 5px 10px;">
+	<h1>{{ post.title |safe}}:</h1>
+	<br></br>
+	<p>{{ post.text |safe}}</p>
+		
+	<!-- need to implement comments -->
+		
+	{% else %}
+		<strong>No post accessible.</strong>
+	{% endif %}
+	</div>
+	
+{% endblock %}
+
+{% block footer %}
+
+{% endblock %}

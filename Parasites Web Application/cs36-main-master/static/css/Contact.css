@@ -1,0 +1,149 @@
+
+body {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+}
+
+h1{
+	text-align: left;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+}
+
+h2{
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	color: 	black;
+	margin-right:1px;}
+
+h4{text-align: left;
+	font-family: 'Poppins', sans-serif;
+	position: relative;
+
+    color:white;
+    margin-left:35px;
+	}
+
+.Question{
+font: size 5px;;
+color:white;
+word-wrap: break-word;
+
+
+}
+
+.main2{
+	margin-top: 50px;
+    margin-left:70px;
+    width: 90%;
+    height:75%;
+    background-color: #36454F;
+    position:fixed;
+    padding-top: 1%;
+    padding-bottom: 1%;
+	
+  
+  
+  
+  }
+
+
+
+
+.contact-form {
+	background-image: linear-gradient( rgb(255, 255, 255),rgb(163, 214, 255));
+	display: inline-block;
+	background-color:white;
+	margin-left:490px;
+	width: 34%;
+	height: 100%;
+	margin-top:50px;
+	margin-bottom: 10px;
+	border:3px; 
+	border-style:solid; 
+	border-color:#0e0d0d; 
+	padding: 1em;
+	border-radius: 25px;
+	text-align: center;
+	
+
+
+
+}
+
+input[type=text], input[type=email], input[type=password]{
+	text-align: center;
+	width: 100%;
+	padding:8px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border-style:solid; 
+  	border-color:#0e0d0d; 
+	background: #ffffff;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+	background-color: #ddd;
+	border-style:solid; 
+  	border-color:#0e0d0d; 
+	
+}
+
+
+
+.submit-button {
+	text-align: center;
+	background-color: #ffffff;
+	color: rgb(2, 2, 2);
+	cursor: pointer;
+	padding: -7px;
+	margin: -6px 0;
+	border-radius: 25px;
+	border-style:solid; 
+	border-color:#0e0d0d;
+	font-size: 16px;
+  	font-weight: 600;
+  
+  	display:inline-block;
+  	margin: 40px 8px 10px 8px 
+	
+}
+
+.submit-button {
+	margin-left: 10px;
+	width: 30%;
+}
+.submit-button:hover {
+	opacity: 0.8;
+	background-color: #0d6dfdd8;
+}
+
+.contact-container {
+	padding: 17px;
+
+}
+
+.alert {
+	padding: 20px;
+	background-color: #f44336;
+	color: white;
+}
+
+#id_message{
+	margin-right: 30px;
+	margin-left: 30px;
+
+}
+
+
+
+
+
+
+
+/* no overflow allowed until the height is less than 900px */
+@media screen and (max-height: 900px){
+	.main{
+		overflow: auto;
+	}
+}

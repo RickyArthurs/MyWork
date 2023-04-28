@@ -1,0 +1,41 @@
+NameCost,Price,HouseCost,Group,Owner,Houses,Hotels
+GO,0,0,1,2,0,0
+Old Kent Road,60,30,8,2,0,0
+Community Chest,0,0,2,2,0,0
+Whitechapel Road,60,30,8,2,0,0
+Income Tax,0,0,4,2,0,0
+King's Cross Station,200,0,17,2,0,0
+The Angel Islingston,100,50,9,2,0,0
+Chance,0,0,3,2,0,0
+Euston Road,120,60,9,2,0,0
+Pentonville Road,120,60,9,2,0,0
+Jail,0,0,5,2,0,0
+Pall Mall,140,70,10,2,0,0
+Electric Company,150,0,6,2,0,0
+Whitehall,140,70,10,2,0,0
+Northumberland Avenue,160,80,10,2,0,0
+Marylebone station,200,0,17,2,0,0
+Bow Street,180,90,12,2,0,0
+Community Chest,0,0,2,2,0,0
+Marloborough Street,180,90,12,2,0,0
+Vine Street,200,100,12,2,0,0
+Free Parking,0,0,7,2,0,0
+Strand,220,110,13,2,0,0
+Chance,0,0,3,2,0,0
+Fleet Street,220,110,13,2,0,0
+Trafalgar Square,240,120,13,2,0,0
+Fenchurch Street station,200,0,17,2,0,0
+Leicester Square,260,130,14,2,0,0
+Coventry Street,260,130,14,2,0,0
+Water Works,150,0,6,2,0,0
+Piccadilly,280,140,14,2,0,0
+Go To Jail,0,0,5,2,0,0
+Regent Street,300,150,15,2,0,0
+Oxford Street,300,150,15,2,0,0
+Community Chest,0,0,2,2,0,0
+Bond Street,320,160,15,2,0,0
+Liverpool Street Station,200,0,17,2,0,0
+Chance,0,0,3,2,0,0
+Park Lane,350,175,16,2,0,0
+Super Tax,0,0,4,2,0,0
+Mayfair,400,200,16,2,0,0

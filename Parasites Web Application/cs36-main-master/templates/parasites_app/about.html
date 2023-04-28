@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+{% extends 'parasites_app/base.html' %}
+{% load static %}
+{% block content_block %}
+
+<script src="{% static 'js/about.js' %}"></script>  
+<link rel="stylesheet" type="text/css" href="{% static 'css/about.css' %}" xmlns="http://www.w3.org/1999/html"/> 
+
+
+	
+	<!-- Define the slideshow container -->
+	<div id="slideshow">
+		<div class="slide-wrapper">
+			
+		<!-- Define each of the slides
+		and write the content -->
+		
+			<div class="slide">
+				<img src="../../static/images/aboutus_images/aboutUs.jpg" style="width:100%;height:100%">
+				
+			</div>
+			<div class="slide">
+			  <img src="../../static/images/aboutus_images/aboutUs3.jpg" style="width:100%;height:100%">
+			</div>
+			<div class="slide">
+				<img src="../../static/images/aboutus_images/aboutUs2.jpg" style="width:100%;height:100%">
+			</div>
+			
+			
+		</div>
+		<div class="w3-card-4">
+
+		
+		
+			
+		
+			
+		</div>
+	</div>
+
+	  <div class="card">
+		
+		<div class="container">
+		 <h2> Our History</h2>
+		  <p>{% for a in c %}
+			{{a.description|safe}}
+		 	{% endfor %}</p>
+		</div>
+	  </div>
+
+{% endblock %}
+
+
