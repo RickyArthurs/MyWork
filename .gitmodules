@@ -1,3 +1,6 @@
 [submodule "Suffix-Tree-Algorithms"]
 	path = Suffix-Tree-Algorithms
 	url = https://github.com/RickyArthurs/Suffix-Tree-Algorithms
+[submodule "Carbon-Aware-Big-Data-Job-Scheduler"]
+	path = Carbon-Aware-Big-Data-Job-Scheduler
+	url = https://github.com/RickyArthurs/Carbon-Aware-Big-Data-Job-Scheduler
