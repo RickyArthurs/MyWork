@@ -1,0 +1,51 @@
+Depth=     125 States=    1e+06 Transitions= 1.97e+06 Memory=   208.905	t=    0.349 R=   3e+06
+Depth=     125 States=    2e+06 Transitions= 3.95e+06 Memory=   289.081	t=    0.707 R=   3e+06
+Depth=     125 States=    3e+06 Transitions=  6.3e+06 Memory=   398.065	t=     1.21 R=   2e+06
+
+(Spin Version 6.5.1 -- 20 December 2019)
+	+ Partial Order Reduction
+
+Full statespace search for:
+	never claim         	+ (:np_:)
+	assertion violations	+ (if within scope of claim)
+	non-progress cycles 	+ (fairness disabled)
+	invalid end states	- (disabled by never claim)
+
+State-vector 164 byte, depth reached 125, errors: 0
+  2639795 states, stored (3.95969e+06 visited)
+  5191792 states, matched
+  9151484 transitions (= visited+matched)
+        0 atomic steps
+hash conflicts:    208568 (resolved)
+
+Stats on memory usage (in Megabytes):
+  463.221	equivalent memory usage for states (stored*(State-vector + overhead))
+  423.894	actual memory usage for states (compression: 91.51%)
+         	state-vector as stored = 148 byte + 20 byte overhead
+  128.000	memory used for hash table (-w24)
+    0.534	memory used for DFS stack (-m10000)
+  551.972	total actual memory usage
+
+
+unreached in proctype Client
+	model.pml:18, state 3, "myLoad = (myLoad+1)"
+	model.pml:19, state 4, "taskChan[selfid]!newTask"
+	model.pml:31, state 26, "-end-"
+	(3 of 26 states)
+unreached in claim never_0
+	model.pml:41, state 2, "assert(((load[0]>=0)&&(load[0]<=100)))"
+	model.pml:43, state 3, "((((load[0]>=load[1])&&((load[0]-load[1])<=1))||((load[0]<load[1])&&((load[1]-load[0])==1))))"
+	model.pml:45, state 4, "assert(((load[1]>=0)&&(load[1]<=100)))"
+	model.pml:47, state 5, "((((load[1]>=load[2])&&((load[1]-load[2])<=1))||((load[1]<load[2])&&((load[2]-load[1])==1))))"
+	model.pml:49, state 6, "assert(((load[2]>=0)&&(load[2]<=100)))"
+	model.pml:51, state 7, "((((load[2]>=load[3])&&((load[2]-load[3])<=1))||((load[2]<load[3])&&((load[3]-load[2])==1))))"
+	model.pml:53, state 8, "assert(((load[3]>=0)&&(load[3]<=100)))"
+	model.pml:55, state 9, "((((load[3]>=load[0])&&((load[3]-load[0])<=1))||((load[3]<load[0])&&((load[0]-load[3])==1))))"
+	model.pml:39, state 10, "(1)"
+	model.pml:57, state 13, "-end-"
+	(10 of 13 states)
+unreached in init
+	(0 of 15 states)
+
+pan: elapsed time 1.97 seconds
+pan: rate 2015110.4 states/second
